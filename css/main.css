@@ -124,6 +124,8 @@ header h1{
     padding: 0 25px;
     font-size: 20px;
 	border-bottom: #AC160A 4px solid;
+	color: #fff;
+	font-family: "BebasBold";
 }
 .button:hover{
 	background-color: #ff6457;
@@ -221,7 +223,7 @@ margin-top: 9px;
 	font-size: 32px;
 }
 .main_cats{
-	padding: 20px 0 32px;
+	padding: 20px 0 50px;
 	background-color: #191919;
 }
 .main_cats h2{
@@ -246,7 +248,7 @@ section h2{
     width: 50px;
     height: 20px;
     background-image: url(../DTHCN/Qwerty6.png);
-    top: 50px;
+    top: 17px;
     margin-left: -74px;
 }
 .s_black h2::after {
@@ -256,7 +258,7 @@ section h2{
     height: 20px;
     background-image: url(../DTHCN/Qwerty6.png);
 	background-position: -50px 0;
-    top: 50px;
+    top: 17px;
     margin-left: 20px;
 }
 .mc_item{
@@ -333,7 +335,7 @@ section h2{
 	background-color: #353535;
 	background-position: -116px 10px;
 }
-body .mc_item_wrap.active > ul {
+body .mc_wrap .mc_item_wrap > ul {
 	background-color: #353535;
 	margin-top: 26px;
 	font-size: 20px;
@@ -343,6 +345,7 @@ body .mc_item_wrap.active > ul {
 	list-style-type: none;
 	z-index: 10;
 	display: none;
+	left: 0;
 }
 .mc_item_wrap.active > ul li {
     display: inline-block;
@@ -354,6 +357,19 @@ body .mc_item_wrap.active > ul {
 }
 .mc_item_wrap.active > ul li a:hover{
 	text-decoration: none; 
+}
+.mc_item_wrap_af {
+	background-image: url(../DTHCN/Qwerty9.png);
+	width: 18px;
+	height: 9px;
+	content: "";
+	position: absolute;
+	margin: 17px 69px;
+	display: none;
+}
+.mc_button_w{
+	text-align: center;
+	margin-top: 30px;
 }
 
 	
