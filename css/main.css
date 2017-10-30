@@ -226,7 +226,8 @@ margin-top: 9px;
 	padding: 20px 0 50px;
 	background-color: #191919;
 }
-.main_cats h2{
+.main_cats h2,
+.art_header{
 	text-transform: uppercase;
 	color: #c9c9c9;
 	font-family: "BebasBold";
@@ -239,7 +240,8 @@ margin-top: 9px;
 .main_cats span{
 	color: #d12f22;
 }
-section h2{
+section h2,
+article h2{
 	position: relative;
 }
 .s_black h2::before {
@@ -257,6 +259,25 @@ section h2{
     width: 50px;
     height: 20px;
     background-image: url(../DTHCN/Qwerty6.png);
+	background-position: -50px 0;
+    top: 17px;
+    margin-left: 20px;
+}
+article h2.art_header::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-image: url(../DTHCN/Qwerty10.png);
+    top: 17px;
+    margin-left: -74px;
+}
+article h2.art_header::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-image: url(../DTHCN/Qwerty10.png);
 	background-position: -50px 0;
     top: 17px;
     margin-left: 20px;
@@ -371,7 +392,57 @@ body .mc_wrap .mc_item_wrap > ul {
 	text-align: center;
 	margin-top: 30px;
 }
-
+article.content{
+	background-color: #E9E9E9;
+}
+article .art_header{
+	color: #050505;
+	margin-bottom: 10px;
+}
+.h_descr{
+	max-width: 790px;
+	text-align: center;
+	margin: auto;
+	margin-top: 0;
+	color: #050505;
+}
+.home_items	{
+	background-color:#D6D6D6;
+	padding: 40px 0;
+	margin-top: 40px;
 	
-
-
+}
+.hi_item {
+	font-size: 14px;
+	color: #050505;
+	text-align: center;
+	margin-bottom: 50px;
+	
+}
+.hi_item  img{
+	max-width: 100%;
+	border-top: 8px #ac160a solid;
+}
+.s_bottom  img{
+	max-width: 100%;
+	position: absolute ;
+	bottom: 0;
+}
+.s_bottom{
+	padding-top: 33px;
+}
+.sb_head.button_cont {
+    text-align: right;
+}
+.s_bottom h2{
+	font-family: BebasBold;
+}
+.sb_head h2{
+	margin: 0;
+	text-transform: uppercase;
+	font-family: "BebasBold";
+	font-size: 40px;
+}
+.sb_content {
+	margin-top: 30px;
+}
