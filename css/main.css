@@ -446,3 +446,30 @@ article .art_header{
 .sb_content {
 	margin-top: 30px;
 }
+footer{
+	background-color: #2A2A2A;
+	color: #fff;
+	padding-top: 28px;
+	padding-bottom: 35px;
+	font-family: "BebasBold";
+	font-size: 20px;
+}
+footer a{
+	color: #fff;
+	padding: 0 18px;
+	text-decoration: underline;
+}
+footer a:hover{
+	text-decoration: none ;
+}
+footer ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+footer li{
+	float: left;
+}
+footer img{
+	float: right;
+}
